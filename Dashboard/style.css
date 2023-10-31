@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+}
+.container .left-page {
+    background: #0f0ffc;
+    color: #fff;
+    width: 300px;
+    height: 859px;
+    font-family: 'Roboto', sans-serif;
+}
+.container .left-page .div {
+    padding: 10px;
+    font-size: 18px;
+}
+.container .left-page .div a {
+    text-decoration: none;
+    color: #fff;
+}
+.container .left-page .a-div {
+    padding: 10px;
+    width: 200px;
+}
+.container .left-page .a-div a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.container .left-page .a-div a:hover {
+    background: #fff;
+    color: #000;
+}
+
+.container .content {
+    padding: 10px;
+    background: #f1f1f1;
+    width: 100%;
+}
+.container .content .div {
+    display: flex;
+}
+.container .content .div .card {
+    margin-left: 900px;
+    display: flex;
+    align-items: center;
+}
+.container .content .div .card i {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container .content .div .card .input input {
+    outline: none;
+    padding: 10px;
+    font-size: 10px;
+    border: none;
+    background: #fff;
+}
+.container .content .div-2 {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.container .content .div-2 .card {
+    width: 250px;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.container .content .div .card .img {
+    display: flex; align-items: center;
+}
+.container .content .div-2 .card .div {
+    display: flex;
+}
+.container .content .div-2 .card .div i {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.container .content .div-2 .card .div .text {
+    display: flex;
+    align-items: center;
+}
+.container .content .div-2 .card span {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+
+.container .content .div-2 .card-2 {
+    width: 250px;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.container .content .div .card-2 .img {
+    display: flex; align-items: center;
+}
+.container .content .div-2 .card-2 .div {
+    display: flex;
+}
+.container .content .div-2 .card-2 .div i {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.container .content .div-2 .card-2 .div .text {
+    display: flex;
+    align-items: center;
+}
+.container .content .div-2 .card-2 span {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+
+.div-3 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.div-3 .text-2 span {
+    display: inline-block;
+}
+.div-3 .text-2 span:nth-child(2) {
+    margin-left: 550px;
+    color: #0f0ffc;
+}
+.div-3 .text-2 span:nth-child(3) {
+    margin-left: 60px;
+}
+.div-3 .text-2 span:nth-child(4) {
+    margin-left: 460px;
+    color: #0f0ffc;
+}
+
+
+
+
+
+.section-div {
+    display: flex;
+}
+.section-div .container-div {
+    background: #fff;
+    width: 700px !important;
+    border-radius: 5px;
+    height: 580px;
+    margin-left: 10px;
+}
+.section-div .container-div .card .icon i {
+    padding: 5px;
+}
+.section-div .container-div .card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 700px;
+    padding: 10px;
+    border-radius: 5px 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+.section-div .container-div .card .text .text-2 {
+    margin-top: 10px;
+}
+.section-div .container-div .card .text .text-2 span {
+    margin-left: 10px;
+}
+.section-div .container-div .card img {
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+
+
+.section-div .container-div {
+    background: #fff;
+    width: 650px;
+    border-radius: 5px;
+    height: 580px;
+    font-family: 'Roboto', sans-serif;
+}
+.section-div .container-div .card-2 .icon i {
+    padding: 5px;
+}
+.section-div .container-div .card-2 {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: 700px;
+    padding: 10px;
+    border-radius: 5px 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+.section-div .container-div .card-2 .text .text-2 {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.section-div .container-div .card-2 .text .text-2 span {
+    margin-left: 10px;
+}
+.section-div .container-div .card-2 img {
+    margin-left: 160px;
+    border-radius: 5px;
+}
+.section-div .container-div .card-2 .text p {
+    font-size: 15px;
+}
+
+
+.right-container .big-div {
+    background: #fff;
+    margin-left: 60px;
+}
+.right-container .big-div .card {
+    width: 400px;
+    padding: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.right-container .big-div .card .text p {
+    font-size: 13px;
+}
+.right-container .big-div .card .text .text-2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right-container .big-div .card .text .text-2 span:nth-child(2) {
+    color: #0f0ffc;
+}
+
+
+
+.right-container .big-div {
+    background: #fff;
+    margin-left: 60px;
+}
+.right-container .big-div .card-2 {
+    width: 400px;
+    padding: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.right-container .big-div .card-2 .text p {
+    font-size: 13px;
+}
+.right-container .big-div .card-2 .text .text-2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right-container .big-div .card-2 .text .text-2 span:nth-child(2) {
+    color: #0f0ffc;
+}
+
+
+
+
+
+.div-4 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.div-3 .text-2 span {
+    display: inline-block;
+}
+.div-4 .text-2 span:nth-child(1) {
+    margin-left: 50px;
+}
+.div-4 .text-2 span:nth-child(2) {
+    margin-left: 400px;
+    color: #0f0ffc;
+}
+
+
+
+
+.right-container .big-div {
+    background: #fff;
+    margin-left: 60px;
+}
+.right-container .big-div .card {
+    width: 400px;
+    padding: 10px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.right-container .big-div .card .text p {
+    font-size: 13px;
+}
+.right-container .big-div .card .text .text-2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.right-container .big-div .card .text .text-2 span:nth-child(2) {
+    color: #0f0ffc;
+}
+
+
+
+
+
+
+
+.diiiv .card-2 {
+    background: #fff;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 58px;
+}
+.diiiv .card-2  .text .icon i {
+    padding: 5px;
+}
+.diiiv .card-2  .text {
+    margin-left: 10px;
+}
+.diiiv .card-2 .text .text-2 {
+    margin-left: 10px; 
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section {
+    background: #fff;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.section .big-div- {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 500px;
+}
+
+.section .big-div- h3 {
+    font-weight: 500;
+    line-height: 1.3;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+.section .big-div- h3:hover {
+    background: #c8d4ff;
+}
+.section .divv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section .divv span {
+    margin-left: 10px;
+}
+.section .divv span button {
+    margin-left: 900px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: #0f0ffc;
+}
+
+
+
+
+
+.divvvvv {
+margin-bottom: 100px;
+flex-wrap: wrap; 
+position: relative;
+right:60px;
+
+}
+.divvvvv .card-1 {
+    display: flex;
+    align-items: center;
+    background: #cccccc;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-radius: 5px 5px 0 0 ;
+}
+.divvvvv .card-1 .text span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+    .divvvvv .card-2 {
+        display: flex;
+        align-items: center;
+        background: #cccccc;
+        padding: 10px;
+        border-bottom: 1px solid black;
+
+    }
+    .divvvvv .card-2 .text span {
+        display: inline-block;
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: gray;
+    }
+
+
+        .divvvvv .card-3 {
+            display: flex;
+            align-items: center;
+            background: #cccccc;
+            padding: 10px;
+            border-radius: 0px 0px 5px 5px ;
+        }
+        .divvvvv .card-3 .text span {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: gray;
+        }
+.divvvvv .text-page-4 h2 {
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 700;
+    padding: 10px;
+}
+.divvvvv .text-page-4 p {
+    padding: 10px;
+    width: 900px;
+}
+.divvvvv .text-page-4 button {
+    padding: 10px;
+    background: #0f0ffc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.divvvvv .text-page-4 h3 {
+    font-weight: 600;
+    color: gray;
+    margin-top: 20px;
+}
